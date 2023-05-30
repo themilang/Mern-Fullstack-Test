@@ -1,0 +1,52 @@
+.scroll{
+   display: flex;
+   justify-content: space-around;
+   
+}
+.scroll img{
+    margin-top: 12px;
+  
+    width: 70px;
+    align-items: center;
+    
+  
+    
+}
+
+	.scroll {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		height: 100%;
+		animation-name: vibrate-slow;
+		animation-duration: 1s;
+		animation-timing-function: linear;
+		animation-delay: 0s;
+		animation-iteration-count: 1;
+		animation-direction: normal;
+		animation-fill-mode: none;
+			
+		
+	}
+	@keyframes vibrate-slow {
+			
+		0% {
+			transform:translate(0);
+		}
+		20% {
+			transform:translate(2px,-2px);
+		}
+		40% {
+			transform:translate(2px,2px);
+		}
+		60% {
+			transform:translate(-2px,2px);
+		}
+		80% {
+			transform:translate(-2px,-2px);
+		}
+		100% {
+			transform:translate(0);
+		}
+	}
+
