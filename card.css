@@ -1,0 +1,120 @@
+.container{
+    background-color: #ffffff;
+   
+}
+
+.card1{
+    background-color: rgb(237, 237, 237);
+    width: 21rem;
+    height: 21rem;
+    margin: 3rem 2rem 3rem;
+    cursor:pointer;
+}
+.card1 img{
+    width: 14rem;
+    margin: .5rem 3rem 3rem;
+    cursor: pointer;
+
+}
+.card1 h3{
+
+    font-size: 2rem;
+    display: flex;
+    justify-content: center;
+    margin-top: -2rem ;
+    color: #0c0c0c;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.card1 p{
+    font-size:1.5rem;
+    display:flex;
+    justify-content: center;
+    margin-top:-23px;
+    padding-bottom: 12px;
+}
+.card{
+    background-color: rgb(255, 255, 255);
+   padding: 40px;
+}
+.card2 {
+   width: 30%;
+    background-color: rgb(230, 230, 230);
+    border-radius: 12px;
+    text-align: center;
+}
+.card2 img{
+    margin-top: 12px;
+    width:14rem;
+  
+}
+.card2 p{
+    padding-bottom: 12px;
+}
+
+/*card3*/
+
+.card3{
+    display:flex;
+    justify-content:space-between;
+
+    background-color: rgb(255, 255, 255);
+    padding: 3rem;
+}
+.card3-child{
+    
+    width: 13rem;
+    height: 16rem;
+  padding: 40px;
+   /* ff 3.6+ */
+   background:-moz-radial-gradient(circle at 75% 94%, rgba(255, 0, 198, 1) 0%, rgba(255, 0, 0, 1) 100%);
+
+   /* safari 5.1+,chrome 10+ */
+   background:-webkit-radial-gradient(circle at 75% 94%, rgba(255, 0, 198, 1) 0%, rgba(255, 0, 0, 1) 100%);
+
+   /* opera 11.10+ */
+   background:-o-radial-gradient(circle at 75% 94%, rgba(255, 0, 198, 1) 0%, rgba(255, 0, 0, 1) 100%);
+
+   /* ie 10+ */
+   background:-ms-radial-gradient(circle at 75% 94%, rgba(255, 0, 198, 1) 0%, rgba(255, 0, 0, 1) 100%);
+
+   /* global 92%+ browsers support */
+   background:radial-gradient(circle at 75% 94%, rgba(255, 0, 198, 1) 0%, rgba(255, 0, 0, 1) 100%);
+    
+  text-align: center;
+  border-radius: 20px;
+  border-top-right-radius: 20px;
+  border-style: none;
+  outline: none;
+
+}
+.card3 img{
+    width: 14rem;
+    margin: -17px;
+
+}
+.card3-child h3{
+    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+.card3-child p{
+    color:#cecece;
+    font-size: 20px;
+    margin: -20px;
+}
+.fcard{
+    align-items: center;
+   
+
+    padding: 8px;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.fcard{
+    transition:transform 0.2s;
+}
+.fcard:hover{
+   
+   transform:scale(1.09)
+}
