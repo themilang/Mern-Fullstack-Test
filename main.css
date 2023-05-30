@@ -1,4 +1,32 @@
 *{
-    background-color: aqua;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+    padding: 2rem;
 }
-/* changes
+/* changes*/
+h1{
+    font-weight: 800;
+    font-size:6rem;
+    text-decoration: solid;
+    
+
+}
+p{
+   font-size: 2rem;
+   border-color: black;
+   border-style: solid;
+   border-radius: 10px;
+   margin-left: 15rem;
+   padding: 5rem;
+   width: 50%;
+   text-align: start;
+   align-items: center;
+   border-color: #cd004f;
+   border-top-color:yellowgreen;
+   border-right-color: aquamarine;
+   border-bottom-color: azure;
+   border-top-left-radius: 10px;
+   border-bottom-right-radius: 90px;
+   border-top-right-radius:0px;
+
+}
